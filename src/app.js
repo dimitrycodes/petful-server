@@ -13,7 +13,7 @@ const app = express();
 app.use(morgan(morganOption));
 app.use(helmet());
 app.use(cors());
-app.use(express.json());
+app.use(express.json()); 
 
 app.use('/api/people', peopleRouter); //See waiting list so we can add our name
 app.use('/api/pets', petRouter); //See upcoming list of pets with 1 cat and 1 dog, adopt 1 cat or 1 dog. 
