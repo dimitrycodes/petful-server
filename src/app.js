@@ -4,8 +4,8 @@ const morgan = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
 const { NODE_ENV } = require("./config");
-conts peopleRouter = require('./Routes/pet-router');
-conts petRouter = require('./Routes/pet-router');
+const peopleRouter = require('./Routes/pet-router');
+const petRouter = require('./Routes/pet-router');
 
 const morganOption = NODE_ENV === "production" ? "tiny" : "common";
 
