@@ -8,6 +8,7 @@ petRouter
   .route('/')
   .get((req, res, next) => {
     let pets = PetQ.get();
+    console.log("Pets", pets);
     return res.status(200).json(pets);
   });
 
@@ -16,6 +17,7 @@ petRouter
   .delete((req, res, next) => {
     let pet = req.params.pet;
     let newFam = {};
+    //console.log("pet", pet);
     try {
       newFam.pet = PetQ.adopt(pet);
       newFam.owner = PeopleQ.dequeue();

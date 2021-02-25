@@ -17,7 +17,7 @@ const all = () => {
       fillerNames[Math.floor(Math.random() * fillerNames.length)]
     );
   }
-
+  console.log("PeopleQ", PeopleQ.all());
   return PeopleQ.all();
 };
 
