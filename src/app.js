@@ -9,6 +9,8 @@ const petRouter = require('./Routes/pet-router');
 
 const morganOption = NODE_ENV === "production" ? "tiny" : "common";
 
+//console.log(process.env.API_TOKEN);
+
 const app = express();
 app.use(morgan(morganOption));
 app.use(helmet());

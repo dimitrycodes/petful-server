@@ -8,7 +8,7 @@ petRouter
   .route('/')
   .get((req, res, next) => {
     let pets = PetQ.get();
-    console.log("Pets", pets);
+    //console.log("Pets", pets);
     return res.status(200).json(pets);
   });
 
