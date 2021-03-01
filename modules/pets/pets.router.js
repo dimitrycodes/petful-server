@@ -1,6 +1,6 @@
 const express = require('express');
-const PeopleQ = require('../Services/people-service');
-const PetQ = require('../Services/pet-service');
+const PeopleQ = require('../people/people.service');
+const PetQ = require('./pets.service');
 
 const petRouter = express.Router();
 

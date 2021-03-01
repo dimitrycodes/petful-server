@@ -10,14 +10,14 @@ module.exports = {
       breed: 'Golden Retriever',
       description: 'A smiling golden-brown golden retriever listening to music.',
       gender: 'Male',
-      imageURL: 'https://images.pexels.com/photos/33053/dog-young-dog-small-dog-maltese.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      imageURL: 'https://images.pexels.com/photos/92380/pexels-photo-92380.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
       name: 'Zim',
       story: 'Owner Passed away'
     },
 
     {
       age: 2,
-      breed: 'Akita',
+      breed: 'brown-orange dog',
       description: 'A smiling golden-brown dog',
       gender: 'Female',
       imageURL: 'https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -27,7 +27,7 @@ module.exports = {
 
     {
       imageURL: 'https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      description: 'Black pug.',
+      description: 'white pug.',
       name: 'Bilbo',
       gender: 'Male',
       age: 3,
@@ -37,7 +37,7 @@ module.exports = {
 
     {
       age: 3,
-      breed: 'Collie',
+      breed: 'Weimaraner',
       description: 'Border collie.',
       gender: 'Male',
       imageURL: 'https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -61,14 +61,14 @@ module.exports = {
       name: 'Zeke',
       gender: 'Male',
       age: 3,
-      breed: 'Golden Retriever',
+      breed: 'black and white dog',
       story: 'Found in a movie theater'
     },
 
     {
       age: 3,
-      breed: 'American Staffordshire Terrier',
-      description: 'A tan dog running with a ball.',
+      breed: 'mutt',
+      description: 'A tan dog running.',
       gender: 'Male',
       imageURL: 'https://gdurl.com/cHqw',
       name: 'Salem',
@@ -87,8 +87,8 @@ module.exports = {
 
     {
       age: 3,
-      breed: 'Terrier',
-      description: 'terrier',
+      breed: 'white dog',
+      description: 'white dog',
       gender: 'Male',
       imageURL: 'https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       name: 'Tiny',
@@ -107,8 +107,8 @@ module.exports = {
 
     {
       age: 3,
-      breed: 'Boxer',
-      description: 'boxer dog',
+      breed: 'Large White',
+      description: 'white dog',
       gender: 'Male',
       imageURL: 'https://images.pexels.com/photos/1629781/pexels-photo-1629781.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       name: 'Tim',
@@ -120,7 +120,7 @@ module.exports = {
     {
       age: 2,
       breed: 'Bengal',
-      description: 'Orange bengal cat with black stripes lounging on concrete.',
+      description: 'White and grey cat',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
       name: 'Steve French',
@@ -129,8 +129,8 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'White cat',
-      description: 'White cat',
+      breed: 'Bengal',
+      description: 'White and grey cat',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
       name: 'Snapjacks',
@@ -139,8 +139,8 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'Bengal',
-      description: 'Grey cat',
+      breed: 'Korat Cat Breed',
+      description: 'dark grey cat',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
       name: 'Grumpy-Face',
@@ -168,8 +168,8 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'Tabby',
-      description: 'Orange bengal cat with black stripes lounging on concrete.',
+      breed: 'Russian Blue Cat Breed',
+      description: 'gray cat',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
       name: 'Daisy',
@@ -178,8 +178,8 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'Bengal',
-      description: 'Brown kitty',
+      breed: 'American Shorthair Cat',
+      description: 'gray and white kitty',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/1543793/pexels-photo-1543793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
       name: 'Stinkster',
@@ -188,7 +188,7 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'Bengal',
+      breed: 'Tabby',
       description: 'kitty',
       gender: 'Female',
       imageURL:'https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
@@ -198,7 +198,7 @@ module.exports = {
 
     {
       age: 2,
-      breed: 'Tabby',
+      breed: 'Russian Blue',
       description: 'grey cat',
       gender: 'Male',
       imageURL:'https://images.pexels.com/photos/54632/cat-animal-eyes-grey-54632.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500', 
@@ -218,9 +218,9 @@ module.exports = {
 
     {
       age: 3,
-      breed: 'Tabby',
-      description: 'boxer dog',
-      gender: 'Male',
+      breed: 'American Shorthair Cat',
+      description: 'grey and white cat',
+      gender: 'Female',
       imageURL: 'https://images.pexels.com/photos/1472999/pexels-photo-1472999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       name: 'Vince the Pince',
       story: 'Found in neighborhood'

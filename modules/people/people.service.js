@@ -1,5 +1,5 @@
-const Queue = require('../queue');
-const { people } = require('../store');
+const Queue = require('../queue/Queue');
+const { people } = require('../../store');
 
 const PeopleQ = new Queue();
 

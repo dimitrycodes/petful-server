@@ -1,5 +1,5 @@
 const express = require('express');
-const PeopleQ = require('../Services/people-service');
+const PeopleQ = require('./people.service');
 
 const peopleRouter = express.Router();
 

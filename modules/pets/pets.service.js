@@ -1,5 +1,5 @@
-const Queue = require('../queue');
-const { cats, dogs } = require('../store');
+const Queue = require('../queue/Queue');
+const { cats, dogs } = require('../../store');
 
 const DogQ = new Queue();
 const CatQ = new Queue();
